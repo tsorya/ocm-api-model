@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 // Which HttpTokensState to use for metadata service interaction options for EC2 instances
-enum HttpTokenState {
+enum AwsMetadataHttpTokenState {
 	// imdsv2 is optional
 	Optional
 

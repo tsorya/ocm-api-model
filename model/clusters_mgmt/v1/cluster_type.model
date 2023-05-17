@@ -220,4 +220,7 @@ class Cluster {
 
 	// Delete protection
 	DeleteProtection DeleteProtection
+
+	// Which HttpTokensState to use for metadata service interaction options for EC2 instances
+	AwsMetadataHttpTokenState AwsMetadataHttpTokenState
 }
